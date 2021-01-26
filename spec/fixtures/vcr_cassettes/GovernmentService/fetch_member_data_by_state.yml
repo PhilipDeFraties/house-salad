@@ -10,7 +10,7 @@ http_interactions:
       X-Api-Key:
       - "<DONT_SHARE_MY_PROPUBLICA_KEY>"
       User-Agent:
-      - Faraday v1.0.1
+      - Faraday v1.3.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -23,37 +23,37 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '4497'
+      - '4471'
       Connection:
       - keep-alive
       Date:
-      - Mon, 12 Oct 2020 16:46:01 GMT
+      - Tue, 26 Jan 2021 19:12:40 GMT
       X-Amzn-Requestid:
-      - 21f9ec0a-7548-4646-acec-4cf247d96d8f
+      - fee5148a-1f7e-4374-89e1-e2c914f308bb
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Headers:
       - Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
       X-Amz-Apigw-Id:
-      - UTo7gEU_IAMFcng=
+      - ZxVyXEN0oAMFiNA=
       Access-Control-Allow-Methods:
       - GET,OPTIONS
       X-Amzn-Trace-Id:
-      - Root=1-5f848849-602e4c8d104d9e357c9224fc
+      - Root=1-601069a8-644aa6a65573a3d204ef640e
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 1ef6a83587a0071bab1ee30d46a49693.cloudfront.net (CloudFront)
+      - 1.1 0fdea8d3b1fc76e3ff9d36e8164171e9.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - DFW55-C1
+      - DEN52-C1
       X-Amz-Cf-Id:
-      - BaHPAoWzk_An6W7rRU4v3wHeNzCCq0id0SzVRA2Bb1uK60VqWpLG3A==
+      - u9-cZeC3ct-7GHxID2sa5GC2NuPvj9A4LO6mG1HhzEAHnwCxwnDeaA==
     body:
       encoding: UTF-8
       string: |
         {
            "status":"OK",
-           "copyright":"Copyright (c) 2020 Pro Publica Inc. All Rights Reserved.",
+           "copyright":"Copyright (c) 2021 Pro Publica Inc. All Rights Reserved.",
            "results":[
               {
                  "id": "D000197",
@@ -69,8 +69,8 @@ http_interactions:
                  "twitter_id": "RepDianaDeGette",
                  "facebook_account": "DianaDeGette",
                  "youtube_id": "RepDianaDeGette",
-                 "seniority": "24",
-                 "next_election": "2020",
+                 "seniority": "26",
+                 "next_election": "2022",
                  "api_uri": "https://api.propublica.org/congress/v1/members/D000197.json",
                  "district": "1",
                  "at_large": false
@@ -89,29 +89,29 @@ http_interactions:
                  "twitter_id": "RepJoeNeguse",
                  "facebook_account": null,
                  "youtube_id": null,
-                 "seniority": "2",
-                 "next_election": "2020",
+                 "seniority": "4",
+                 "next_election": "2022",
                  "api_uri": "https://api.propublica.org/congress/v1/members/N000191.json",
                  "district": "2",
                  "at_large": false
               },
               {
-                 "id": "T000470",
-                 "name": "Scott Tipton",
-                 "first_name": "Scott",
+                 "id": "B000825",
+                 "name": "Lauren Boebert",
+                 "first_name": "Lauren",
                  "middle_name": null,
-                 "last_name": "Tipton",
+                 "last_name": "Boebert",
                  "suffix": null,
                  "role": "Representative",
-                 "gender": "M",
+                 "gender": "F",
                  "party": "R",
-                 "times_topics_url": "",
-                 "twitter_id": "RepTipton",
-                 "facebook_account": "CongressmanScottTipton",
-                 "youtube_id": "RepScottTipton",
-                 "seniority": "10",
-                 "next_election": "2020",
-                 "api_uri": "https://api.propublica.org/congress/v1/members/T000470.json",
+                 "times_topics_url": null,
+                 "twitter_id": "RepBoebert",
+                 "facebook_account": null,
+                 "youtube_id": null,
+                 "seniority": "2",
+                 "next_election": "2022",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/B000825.json",
                  "district": "3",
                  "at_large": false
               },
@@ -129,8 +129,8 @@ http_interactions:
                  "twitter_id": "RepKenBuck",
                  "facebook_account": null,
                  "youtube_id": null,
-                 "seniority": "6",
-                 "next_election": "2020",
+                 "seniority": "8",
+                 "next_election": "2022",
                  "api_uri": "https://api.propublica.org/congress/v1/members/B001297.json",
                  "district": "4",
                  "at_large": false
@@ -149,8 +149,8 @@ http_interactions:
                  "twitter_id": "RepDLamborn",
                  "facebook_account": "CongressmanDougLamborn",
                  "youtube_id": "CongressmanLamborn",
-                 "seniority": "14",
-                 "next_election": "2020",
+                 "seniority": "16",
+                 "next_election": "2022",
                  "api_uri": "https://api.propublica.org/congress/v1/members/L000564.json",
                  "district": "5",
                  "at_large": false
@@ -169,8 +169,8 @@ http_interactions:
                  "twitter_id": "RepJasonCrow",
                  "facebook_account": null,
                  "youtube_id": null,
-                 "seniority": "2",
-                 "next_election": "2020",
+                 "seniority": "4",
+                 "next_election": "2022",
                  "api_uri": "https://api.propublica.org/congress/v1/members/C001121.json",
                  "district": "6",
                  "at_large": false
@@ -189,12 +189,12 @@ http_interactions:
                  "twitter_id": "RepPerlmutter",
                  "facebook_account": "RepPerlmutter",
                  "youtube_id": "RepPerlmutter",
-                 "seniority": "14",
-                 "next_election": "2020",
+                 "seniority": "16",
+                 "next_election": "2022",
                  "api_uri": "https://api.propublica.org/congress/v1/members/P000593.json",
                  "district": "7",
                  "at_large": false
               }
         ]}
-  recorded_at: Mon, 12 Oct 2020 16:46:01 GMT
+  recorded_at: Tue, 26 Jan 2021 19:12:40 GMT
 recorded_with: VCR 6.0.0

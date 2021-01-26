@@ -18,6 +18,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap'
 gem 'faraday'
 gem 'figaro'
+gem 'execjs'
+gem 'therubyracer', :platforms => :ruby
 
 gem 'bootstrap', '~> 4'
 gem 'jquery-rails'
