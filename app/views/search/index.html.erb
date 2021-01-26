@@ -1,9 +1,26 @@
 <h1><%= @members.count %> Results</h1>
+
+<div class="container">
+<div class="row">
+
+
+
 <% @members.each do |member| %>
-  <section class="member <%= member.party %>">
-    <h3 class="name"><%= member.name %></h3>
-    <p class="role"><%= member.role %></p>
-    <p class="party"><%= member.party %></p>
-    <p class="district"><%= member.district %></p>
-  </section>
+
+<div class="card gutter10 <%= member.party %>">
+  <div class="card-body">
+    <div class="card-title name">
+      <%= member.name %>
+    </div>
+    <section class="member <%= member.party %>">
+
+      <p class="role"><%= member.role %></p>
+      <p class="party"><%= member.party %></p>
+      <p class="district"><%= member.district %></p>
+    </section>
+  </div>
+</div>
+
 <% end %>
+</div>
+</div>
