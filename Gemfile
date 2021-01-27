@@ -27,6 +27,7 @@ gem 'jquery-rails'
 group :development, :test do
   gem 'pry'
   gem 'awesome_print'
+  gem 'dotenv-rails'
 end
 
 group :test do
